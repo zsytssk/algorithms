@@ -1,0 +1,52 @@
+{
+  "name": "alivia-vap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "ts-node --project ./tsconfig.json --files src/main.ts",
+    "prettier": "prettier --write ./src"
+  },
+  "husky": {},
+  "lint-staged": {
+    "./**/*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "prettier": "^2.8.7",
+    "typescript": "^4.2.4"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "sourceMap": false,
+        "target": "es6",
+        "watch": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "strict": true
+    },
+    "ts-node": {
+        "esm": true
+    },
+    "include": ["./src"]
+}

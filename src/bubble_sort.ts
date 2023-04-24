@@ -1,3 +1,4 @@
+// O(n^2)
 export default function bubble_sort(arr: number[]) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length - i - 1; j++) {
